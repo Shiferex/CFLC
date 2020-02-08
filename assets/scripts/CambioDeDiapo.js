@@ -9,7 +9,7 @@ function CambiarDiapostiva(id){
 	var opcion1Id = dataDiapo.children('.opcion1Id').html();
 	var opcion2Texto = dataDiapo.children('.opcion2Texto').html();
 	var opcion2Id = dataDiapo.children('.opcion2Id').html();	var esFinal = dataDiapo.children('.EsFinal').html();
-	if(esFinal == true){
+	if(esFinal == 'true'){
 		$('#btnOpcion1').remove();
 		$('#btnOpcion2').remove();
 	}
